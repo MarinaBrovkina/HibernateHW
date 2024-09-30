@@ -1,12 +1,10 @@
-package org.example.application;
+package org.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Configuration;
 
 @SpringBootApplication
-@EntityScan("com.example.hiber")
 @Configuration
 public class PersonApplication {
 

@@ -16,6 +16,5 @@ public class Contact implements Serializable {
     private String firstName;
     private String lastName;
     private int age;
-
 }
 
